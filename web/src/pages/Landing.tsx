@@ -5,11 +5,7 @@ import logoImg from '../images/logo.svg';
 import '../styles/global.css';
 import '../styles/pages/landing.css';
 
-interface Props {
-
-}
-
-function Landing(props: Props) {
+function Landing() {
     return (
         <div id="page-landing">
             <div className="content-wrapper">
